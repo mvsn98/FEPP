@@ -22,6 +22,8 @@ spec:
   type: API
   lifecycle: production
   owner: team-mv
+  definition:
+    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -31,6 +33,8 @@ spec:
   type: API
   lifecycle: production
   owner: team-mv
+  definition:
+    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -40,6 +44,8 @@ spec:
   type: API
   lifecycle: development
   owner: team-mv
+  definition:
+    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -49,6 +55,8 @@ spec:
   type: API
   lifecycle: production
   owner: team-mv
+  definition:
+    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -58,6 +66,8 @@ spec:
   type: API
   lifecycle: production
   owner: team-mv
+  definition:
+    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -67,6 +77,8 @@ spec:
   type: Database
   lifecycle: production
   owner: team-mv
+  definition:
+    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -76,3 +88,5 @@ spec:
   type: My-Portal
   lifecycle: production
   owner: team-mv
+  definition:
+    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
