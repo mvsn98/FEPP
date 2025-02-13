@@ -23,7 +23,7 @@ spec:
   lifecycle: production
   owner: team-mv
   definition:
-    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
+    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -34,7 +34,7 @@ spec:
   lifecycle: production
   owner: team-mv
   definition:
-    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
+    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -45,7 +45,7 @@ spec:
   lifecycle: development
   owner: team-mv
   definition:
-    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
+    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -56,7 +56,7 @@ spec:
   lifecycle: production
   owner: team-mv
   definition:
-    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
+    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -67,7 +67,7 @@ spec:
   lifecycle: production
   owner: team-mv
   definition:
-    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
+    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -78,7 +78,7 @@ spec:
   lifecycle: production
   owner: team-mv
   definition:
-    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
+    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -89,4 +89,4 @@ spec:
   lifecycle: production
   owner: team-mv
   definition:
-    $text: https://github.com/mvsn98/FEPP/main/catalog-info.yaml
+    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
