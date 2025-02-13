@@ -11,8 +11,8 @@ spec:
   owner: team-mv
   providesApis: [admin-panel, social-profile, feedback]
   consumesApis: [facebook-profile-photos]
-  dependsOn: [mongodb]
-  dependencyOf: [mv-portal]
+  dependsOn: [resource:mongodb]
+  dependencyOf: [resource:mv-portal]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
