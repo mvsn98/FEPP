@@ -11,8 +11,8 @@ spec:
   type: Service
   lifecycle: production
   owner: team-mv
-  providesApis: [admin-panel, social-profile, feedback]
-  consumesApis: [facebook-profile-photos]
+  providesApis: [API:admin-panel, API:social-profile, API:feedback]
+  consumesApis: [API:facebook-profile-photos]
   dependsOn: [resource:mongodb]
   dependencyOf: [resource:mv-portal]
 ---
