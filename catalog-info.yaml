@@ -50,17 +50,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: admin-panel
-spec:
-  type: API
-  lifecycle: production
-  owner: team-mv
-  definition:
-    $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
   name: facebook-profile-photos
 spec:
   type: API
