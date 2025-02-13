@@ -6,7 +6,73 @@ metadata:
   annotations:
     github.com/project-slug: mvsn98/FEPP
 spec:
-  type: service
+  type: Service
   lifecycle: production
   owner: team-mv
-
+  providesApis: [admin-panel, social-profile, feedback]
+  consumesApis: [facebook-profile-photos]
+  dependsOn: [mongodb]
+  dependencyOf: [mv-portal]
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: admin-panel
+spec:
+  type: API
+  lifecycle: production
+  owner: team-mv
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: social-profile
+spec:
+  type: API
+  lifecycle: production
+  owner: team-mv
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: feedback
+spec:
+  type: API
+  lifecycle: development
+  owner: team-mv
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: admin-panel
+spec:
+  type: API
+  lifecycle: production
+  owner: team-mv
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: facebook-profile-photos
+spec:
+  type: API
+  lifecycle: production
+  owner: team-mv
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: mongodb
+spec:
+  type: Database
+  lifecycle: production
+  owner: team-mv
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: mv-portal
+spec:
+  type: My-Portal
+  lifecycle: production
+  owner: team-mv
