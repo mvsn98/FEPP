@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Feedback Enabled Public Profile
+  name: feedback-enabled-public-profile
   description: Manish's Social Profile
   annotations:
     github.com/project-slug: mvsn98/FEPP
