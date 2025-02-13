@@ -5,6 +5,7 @@ metadata:
   description: Manish's Social Profile
   annotations:
     github.com/project-slug: mvsn98/FEPP
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: Service
   lifecycle: production
