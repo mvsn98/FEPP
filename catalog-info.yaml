@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  description: Manish's Social Profile
+  annotations:
+    github.com/project-slug: mvsn98/FEPP
+spec:
+  type: service
+  lifecycle: production
+  owner: team-mv
+
