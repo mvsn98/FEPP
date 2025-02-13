@@ -14,6 +14,11 @@ spec:
   consumesApis: [facebook-profile-photos]
   dependsOn: [resource:mongodb]
   dependencyOf: [resource:mv-portal]
+spec:
+  type:
+    type: Documentation
+    lifecycle: production
+    owner: team-mv
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API

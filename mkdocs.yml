@@ -1,4 +1,6 @@
-site_name: Documentation Site
-docs_dir: site
+site_name: FEPP Docs
+site_description: FEPP Docs
 plugins:
   - techdocs-core
+nav:
+  - Getting Started: index.md
