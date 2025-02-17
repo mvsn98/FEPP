@@ -35,7 +35,7 @@ spec:
   definition:
     $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
   partOf: 
-    - system:default/feedback-enabled-public-profile
+    - default/feedback-enabled-public-profile
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
