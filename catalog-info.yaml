@@ -5,7 +5,8 @@ metadata:
   description: Manish's Social Profile
   annotations:
     github.com/project-slug: mvsn98/FEPP
-    jenkins.io/job-full-name: mvsn98/FEPP
+    jenkins.io/job-full-name: "FEPP"
+    jenkins.io/instance: "http://45.198.13.52:8080"
     backstage.io/techdocs-ref: dir:.
 spec:
   type: Service
