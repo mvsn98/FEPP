@@ -12,6 +12,12 @@ spec:
   type: Service
   lifecycle: production
   owner: team-mv
+  jenkins:
+    baseUrl: http://45.198.13.52:8080
+    username: "Manish"
+    apiToken: "11dcb1fc463b872dad09f958d73f925841"
+    job: FEPP
+    branch: main
   providesApis: [API:admin-panel, API:social-profile, API:feedback]
   consumesApis: [API:facebook-profile-photos]
   dependsOn: [resource:mongodb]
