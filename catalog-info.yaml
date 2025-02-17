@@ -31,8 +31,6 @@ spec:
   owner: team-mv
   definition:
     $text: https://github.com/mvsn98/FEPP/blob/main/catalog-info.yaml
-  partOf: 
-    - default/feedback-enabled-public-profile
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
